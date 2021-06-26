@@ -1,10 +1,5 @@
 import React, {useEffect, useState} from 'react'
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    Redirect,
     NavLink
   } from "react-router-dom";
 import firebase from './firebase';
