@@ -5,9 +5,7 @@ import Employee from "./Employee";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link,
-  Redirect
+  Route
 } from "react-router-dom";
 
 function App() {
