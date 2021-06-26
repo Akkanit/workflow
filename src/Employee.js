@@ -37,6 +37,8 @@ const Employee = () => {
             case "reason":
                 changeReason(e.target.value)
                 break;
+            case "default":
+                alert("not in case");
           }
         
       };

@@ -17,7 +17,7 @@ useEffect(() => {
       const requestData = [];
       snapshot.forEach((doc) => 
       {
-        if(doc.data().status==false){
+        if(doc.data().status===false){
       requestData.push(doc.data())}
       }
       );
